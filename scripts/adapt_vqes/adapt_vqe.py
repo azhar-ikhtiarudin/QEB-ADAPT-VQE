@@ -24,27 +24,21 @@ if __name__ == "__main__":
     # <<<<<<<<<ITER VQE PARAMETERS>>>>>>>>>>>>>>>>>>>>
 
     # <<<<<<<<<<< MOLECULE PARAMETERS >>>>>>>>>>>>>
-<<<<<<< HEAD:scripts/iter_vqe/adapt_vqe.py
     r = 1.316
     # theta = 0.538*numpy.pi # for H20
     frozen_els = {'occupied': [], 'unoccupied': []}
     molecule = BeH2(r=r)  # (frozen_els=frozen_els)
-=======
-    r = 1.5
-    # theta = 0.538*numpy.pi # for H20
-    frozen_els = {'occupied': [], 'unoccupied': []}
-    molecule = H6(r=r)  # (frozen_els=frozen_els)
->>>>>>> master:scripts/adapt_vqes/adapt_vqe.py
+    # r = 1.5
+    # # theta = 0.538*numpy.pi # for H20
+    # frozen_els = {'occupied': [], 'unoccupied': []}
+    # molecule = H6(r=r)  # (frozen_els=frozen_els)
 
     # <<<<<<<<<< ANSATZ ELEMENT POOL PARAMETERS >>>>>>>>>>>>.
     # ansatz_element_type = 'eff_f_exc'
-    ansatz_element_type = 'q_exc'
+    # ansatz_element_type = 'q_exc'
     # ansatz_element_type = 'f_exc'
-<<<<<<< HEAD:scripts/iter_vqe/adapt_vqe.py
     ansatz_element_type = 'pauli_str_exc'
-=======
     # ansatz_element_type = 'pauli_str_exc'
->>>>>>> master:scripts/adapt_vqes/adapt_vqe.py
     q_encoding = 'jw'
     spin_complement = False  # only for fermionic and qubit excitations (not for PWEs)
 
